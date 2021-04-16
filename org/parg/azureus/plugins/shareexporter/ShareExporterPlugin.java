@@ -273,7 +273,7 @@ ShareExporterPlugin
 			return;
 		}
 	
-		log.log( "Procesing share '" + share.getName()  +"'");
+		log.log( "Processing share '" + share.getName()  +"'");
 		
 		if ( !new File(torrent_dir.getValue()).exists()){
 			
